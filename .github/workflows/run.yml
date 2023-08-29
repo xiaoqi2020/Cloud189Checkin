@@ -4,7 +4,8 @@ on:
     branches:
       - main
   watch:
-    types: started
+    #types: started
+    types: stop
   schedule:
     - cron: 35 3 * * *
 jobs:
